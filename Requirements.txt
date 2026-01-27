@@ -1,20 +1,19 @@
 # Required Packages
 
-langchain-groq
-langchain-classic
-langchain-community
-langchain-core
-Wikipedia
+langchain-groq: 1.1.1
+langchain-classic: 1.0.1
+langchain-community: 0.4.1
+langchain-core: 1.2.7
 Python >= 3.9
 
 # Why each package is needed?
 
-1. langchain-groq is for ChatGroq
+- langchain-groq is for ChatGroq
 
-2. langchain-classic is for ConversationBufferMemory, ConversationalChatAgent
+- langchain-classic is for ConversationBufferMemory, ConversationalChatAgent
 
-3. langchain-community is for Wikipedia tools
+- langchain-community is for Wikipedia tools
 
-4. langchain-core required internally (and for deprecation handling)
+- langchain-core required internally (and for deprecation handling)
 
-5. wikipedia is a backend library used by WikipediaAPIWrapper
+- wikipedia is a backend library used by WikipediaAPIWrapper
